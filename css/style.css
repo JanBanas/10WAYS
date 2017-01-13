@@ -1,0 +1,130 @@
+
+
+
+body{
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+header{
+	background-image: url(../images/header.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	height: 1000px;
+
+
+}
+
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.main_width {
+    border: 1px ;
+    width: 930px;
+    margin: 0 auto; /* wysrodkowanie */
+    
+
+}
+
+.logo{
+	font-size: 20px;
+	float: left;
+	padding-top: 17px;
+}
+
+nav{
+	float: right;
+}
+
+nav li {
+
+	font-size: 14px;
+    display:inline-block;
+    padding: 0 10px;
+}
+
+.menu{
+	padding-top: 20px;
+}
+
+.text{
+	padding: 100px 100px 0px 0px;
+	width: 930px;
+}
+
+h1 {
+	font-size: 24px;
+	padding: 80px 0px 40px 0px;
+}
+
+p{
+	font-size: 60px;
+}
+
+.button{
+	margin-top: 40px;
+	height: 30px; 
+	width: 100px;
+	background-color: #e92121;
+	color: white;
+	border: #e92121;
+	
+}
+
+.learn{
+	padding: 50px 0px 0px 0px;
+	width: 50%;
+	font-size:48px;
+	color: #464646;
+	float: left;
+
+}
+
+.paragrafy{
+	float: right;
+	border: 1px;
+	width: 50%;
+	padding-left: 40px;
+
+}
+
+.p1{
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+.p2{
+	margin-bottom: 30px;
+	font-size: 16px;
+	
+}
+
+section{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	height: 1000px;
+}
+
+.menu-footer{
+	border: 1px;
+	float: left;
+	font-size: 16px;
+	color: #474747;
+	padding-right: 30%;
+}
+
+.coder{
+	float: right;
+	font-size: 16px;
+	color: #474747;
+	width: 30;
+}
